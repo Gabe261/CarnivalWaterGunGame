@@ -1,0 +1,25 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/FinalScoreScreenStyles.uss?fileID=7433441132597879392&amp;guid=2cf0303e681031142bdb49c3e6e2a281&amp;type=3#FinalScoreScreenStyles" />
+    <engine:VisualElement name="Container">
+        <engine:VisualElement name="ScoreContainer">
+            <engine:VisualElement name="TargetsHitContainer">
+                <engine:Label text="Targets Hit:" name="TargetsHitLabel" />
+                <engine:Label text="Label" name="TargetsHit" />
+            </engine:VisualElement>
+            <engine:VisualElement name="LiquidRemainingContainer">
+                <engine:Label text="Remaining Liquid:" name="LiquidRemainingLabel" />
+                <engine:Label text="Label" name="LiquidRemaining" />
+            </engine:VisualElement>
+            <engine:VisualElement name="StreaksAchievedContainer">
+                <engine:Label text="Streaks Achieved:" name="StreaksAchievedLabel" />
+                <engine:Label text="Label" name="StreaksAchieved" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="CalculationContainer">
+            <engine:Label text="Final Score Calculation:" name="CalculationLabel" />
+            <engine:Label text="Label" name="Calculation" />
+            <engine:Button text="Main Menu" name="MainMenuButton" />
+            <engine:Button text="Play Again" name="PlayAgainButton" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
